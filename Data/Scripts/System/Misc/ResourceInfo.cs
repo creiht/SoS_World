@@ -119,29 +119,33 @@ namespace Server.Items
 			Blank = new CraftAttributeInfo();
 			DullCopper	 = CraftAttInfo( 	3	,	0	,	0	,	0	,	0	,	1	,	2	,	40	,	100	,	0	,	0	,	0	,	0	,	75	,	35	,	0	 );
 			ShadowIron	 = CraftAttInfo( 	1	,	0	,	1	,	3	,	0	,	2	,	2	,	45	,	100	,	0	,	0	,	0	,	0	,	75	,	0	,	0	 );
-			Copper	 = CraftAttInfo( 	1	,	0	,	1	,	1	,	3	,	2	,	3	,	50	,	100	,	0	,	0	,	20	,	10	,	25	,	0	,	0	 );
-			Bronze	 = CraftAttInfo( 	2	,	3	,	0	,	1	,	1	,	3	,	3	,	55	,	100	,	0	,	40	,	0	,	0	,	30	,	0	,	0	 );
-			Golden	 = CraftAttInfo( 	1	,	1	,	1	,	1	,	0	,	3	,	4	,	60	,	100	,	0	,	0	,	0	,	0	,	30	,	40	,	40	 );
-			Agapite	 = CraftAttInfo( 	1	,	1	,	2	,	1	,	1	,	4	,	4	,	65	,	100	,	30	,	0	,	20	,	0	,	25	,	0	,	0	 );
-			Verite	 = CraftAttInfo( 	2	,	1	,	2	,	1	,	2	,	4	,	5	,	70	,	100	,	0	,	0	,	20	,	40	,	25	,	0	,	0	 );
-			Valorite	 = CraftAttInfo( 	2	,	2	,	0	,	2	,	2	,	5	,	5	,	85	,	100	,	20	,	10	,	20	,	10	,	40	,	0	,	0	 );
-			Nepturite	 = CraftAttInfo( 	4	,	3	,	0	,	0	,	3	,	5	,	5	,	85	,	100	,	25	,	0	,	0	,	25	,	40	,	0	,	0	 );
-			Obsidian	 = CraftAttInfo( 	3	,	1	,	3	,	1	,	1	,	5	,	5	,	85	,	100	,	0	,	20	,	10	,	0	,	40	,	0	,	0	 );
-			Steel	 = CraftAttInfo( 	3	,	3	,	0	,	3	,	3	,	6	,	7	,	85	,	100	,	0	,	0	,	0	,	0	,	50	,	25	,	0	 );
-			Brass	 = CraftAttInfo( 	4	,	4	,	0	,	4	,	4	,	8	,	9	,	85	,	100	,	0	,	20	,	20	,	0	,	55	,	45	,	0	 );
-			Mithril	 = CraftAttInfo( 	5	,	5	,	0	,	5	,	5	,	10	,	11	,	85	,	100	,	0	,	0	,	30	,	0	,	100	,	75	,	100	 );
-			Xormite	 = CraftAttInfo( 	5	,	5	,	5	,	6	,	5	,	10	,	11	,	85	,	100	,	0	,	0	,	30	,	0	,	100	,	75	,	0	 );
-			Dwarven	 = CraftAttInfo( 	7	,	5	,	5	,	0	,	0	,	20	,	22	,	170	,	200	,	0	,	0	,	0	,	0	,	100	,	10	,	0	 );
-			Agrinium	 = CraftAttInfo( 	5	,	3	,	3	,	5	,	0	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
-			Beskar	 = CraftAttInfo( 	6	,	2	,	2	,	3	,	2	,	15	,	16	,	170	,	200	,	0	,	10	,	0	,	0	,	80	,	25	,	0	 );
-			Carbonite	 = CraftAttInfo( 	4	,	5	,	1	,	4	,	1	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
-			Cortosis	 = CraftAttInfo( 	4	,	3	,	3	,	6	,	0	,	15	,	16	,	170	,	200	,	0	,	0	,	25	,	0	,	80	,	25	,	0	 );
-			Durasteel	 = CraftAttInfo( 	3	,	3	,	3	,	3	,	3	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
-			Durite	 = CraftAttInfo( 	4	,	4	,	4	,	2	,	1	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
-			Farium	 = CraftAttInfo( 	4	,	0	,	7	,	4	,	0	,	15	,	16	,	170	,	200	,	0	,	35	,	0	,	0	,	80	,	25	,	0	 );
-			Laminasteel	 = CraftAttInfo( 	4	,	0	,	0	,	4	,	7	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	25	,	80	,	25	,	0	 );
-			Neuranium	 = CraftAttInfo( 	5	,	0	,	5	,	5	,	0	,	15	,	16	,	170	,	200	,	0	,	25	,	0	,	0	,	80	,	25	,	0	 );
-			Phrik	 = CraftAttInfo( 	4	,	1	,	2	,	6	,	2	,	15	,	16	,	170	,	200	,	0	,	0	,	35	,	0	,	80	,	25	,	0	 );
+			Copper		= CraftAttInfo( 	1	,	0	,	1	,	1	,	3	,	2	,	3	,	50	,	100	,	0	,	0	,	20	,	10	,	25	,	0	,	0	 );
+			Bronze		= CraftAttInfo( 	2	,	3	,	0	,	1	,	1	,	3	,	3	,	55	,	100	,	0	,	40	,	0	,	0	,	30	,	0	,	0	 );
+			Golden		= CraftAttInfo( 	1	,	1	,	1	,	1	,	0	,	3	,	4	,	60	,	100	,	0	,	0	,	0	,	0	,	30	,	40	,	40	 );
+			Agapite		= CraftAttInfo( 	1	,	1	,	2	,	1	,	1	,	4	,	4	,	65	,	100	,	30	,	0	,	20	,	0	,	25	,	0	,	0	 );
+			
+			Verite		= CraftAttInfo( 	2	,	1	,	2	,	1	,	2	,	4	,	5	,	70	,	100	,	0	,	0	,	20	,	40	,	25	,	0	,	0	 );
+			Valorite	= CraftAttInfo( 	2	,	2	,	0	,	2	,	2	,	5	,	5	,	85	,	100	,	20	,	10	,	20	,	10	,	40	,	0	,	0	 );
+			Nepturite	= CraftAttInfo( 	4	,	3	,	0	,	0	,	3	,	5	,	5	,	85	,	100	,	25	,	0	,	0	,	25	,	40	,	0	,	0	 );
+			Obsidian	= CraftAttInfo( 	3	,	1	,	3	,	1	,	1	,	5	,	5	,	85	,	100	,	0	,	20	,	10	,	0	,	40	,	0	,	0	 );
+			Steel		= CraftAttInfo( 	3	,	3	,	0	,	3	,	3	,	6	,	7	,	85	,	100	,	0	,	0	,	0	,	0	,	50	,	25	,	0	 );
+			Brass		= CraftAttInfo( 	4	,	4	,	0	,	4	,	4	,	8	,	9	,	85	,	100	,	0	,	20	,	20	,	0	,	55	,	45	,	0	 );			
+			
+			Mithril	 	= CraftAttInfo( 	5	,	5	,	0	,	5	,	5	,	10	,	11	,	85	,	100	,	0	,	0	,	30	,	0	,	100	,	75	,	100	 );
+			Xormite	 	= CraftAttInfo( 	5	,	5	,	5	,	6	,	5	,	10	,	11	,	85	,	100	,	0	,	0	,	30	,	0	,	100	,	75	,	0	 );
+			
+			Dwarven	 	= CraftAttInfo( 	7	,	5	,	5	,	0	,	0	,	20	,	22	,	170	,	200	,	0	,	0	,	0	,	0	,	100	,	10	,	0	 );
+			
+			Agrinium	= CraftAttInfo( 	5	,	3	,	3	,	5	,	0	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
+			Beskar	 	= CraftAttInfo( 	6	,	2	,	2	,	3	,	2	,	15	,	16	,	170	,	200	,	0	,	10	,	0	,	0	,	80	,	25	,	0	 );
+			Carbonite	= CraftAttInfo( 	4	,	5	,	1	,	4	,	1	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
+			Cortosis	= CraftAttInfo( 	4	,	3	,	3	,	6	,	0	,	15	,	16	,	170	,	200	,	0	,	0	,	25	,	0	,	80	,	25	,	0	 );
+			Durasteel	= CraftAttInfo( 	3	,	3	,	3	,	3	,	3	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
+			Durite	 	= CraftAttInfo( 	4	,	4	,	4	,	2	,	1	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
+			Farium	 	= CraftAttInfo( 	4	,	0	,	7	,	4	,	0	,	15	,	16	,	170	,	200	,	0	,	35	,	0	,	0	,	80	,	25	,	0	 );
+			Laminasteel	= CraftAttInfo( 	4	,	0	,	0	,	4	,	7	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	25	,	80	,	25	,	0	 );
+			Neuranium	= CraftAttInfo( 	5	,	0	,	5	,	5	,	0	,	15	,	16	,	170	,	200	,	0	,	25	,	0	,	0	,	80	,	25	,	0	 );
+			Phrik		= CraftAttInfo( 	4	,	1	,	2	,	6	,	2	,	15	,	16	,	170	,	200	,	0	,	0	,	35	,	0	,	80	,	25	,	0	 );
 			Promethium	 = CraftAttInfo( 	5	,	0	,	0	,	5	,	5	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	35	,	80	,	25	,	0	 );
 			Quadranium	 = CraftAttInfo( 	4	,	3	,	3	,	4	,	2	,	15	,	16	,	170	,	200	,	10	,	10	,	10	,	10	,	80	,	25	,	0	 );
 			Songsteel	 = CraftAttInfo( 	6	,	2	,	2	,	4	,	2	,	15	,	16	,	170	,	200	,	0	,	0	,	0	,	0	,	80	,	25	,	0	 );
@@ -149,63 +153,71 @@ namespace Server.Items
 			Trimantium	 = CraftAttInfo( 	4	,	7	,	2	,	2	,	1	,	15	,	16	,	170	,	200	,	50	,	0	,	0	,	0	,	80	,	25	,	0	 );
 			Xonolite	 = CraftAttInfo( 	4	,	2	,	7	,	2	,	1	,	15	,	16	,	170	,	200	,	0	,	50	,	0	,	0	,	80	,	25	,	0	 );
 																																				
-			RedScales	 = CraftAttInfo( 	3	,	0	,	3	,	0	,	0	,	6	,	11	,	75	,	100	,	0	,	25	,	0	,	0	,	30	,	0	,	0	 );
-			YellowScales	 = CraftAttInfo( 	1	,	1	,	1	,	1	,	1	,	6	,	11	,	75	,	100	,	10	,	10	,	10	,	10	,	30	,	0	,	30	 );
-			BlackScales	 = CraftAttInfo( 	2	,	0	,	0	,	2	,	2	,	6	,	11	,	75	,	100	,	0	,	0	,	0	,	0	,	30	,	0	,	0	 );
-			GreenScales	 = CraftAttInfo( 	2	,	0	,	0	,	0	,	3	,	6	,	11	,	75	,	100	,	0	,	0	,	0	,	25	,	30	,	0	,	0	 );
-			WhiteScales	 = CraftAttInfo( 	2	,	3	,	0	,	0	,	0	,	6	,	11	,	75	,	100	,	25	,	0	,	0	,	0	,	30	,	0	,	0	 );
-			BlueScales	 = CraftAttInfo( 	2	,	2	,	0	,	0	,	1	,	6	,	11	,	75	,	100	,	15	,	0	,	0	,	15	,	30	,	0	,	0	 );
-			DinosaurScales	 = CraftAttInfo( 	1	,	1	,	1	,	1	,	1	,	6	,	11	,	75	,	100	,	0	,	0	,	0	,	0	,	30	,	0	,	0	 );
-			MetallicScales	 = CraftAttInfo( 	2	,	0	,	2	,	2	,	0	,	6	,	11	,	75	,	100	,	0	,	0	,	0	,	0	,	30	,	0	,	0	 );
-			BrazenScales	 = CraftAttInfo( 	2	,	0	,	2	,	1	,	0	,	6	,	11	,	75	,	100	,	0	,	15	,	15	,	0	,	30	,	0	,	0	 );
-			UmberScales	 = CraftAttInfo( 	3	,	0	,	0	,	3	,	0	,	6	,	11	,	75	,	100	,	0	,	0	,	35	,	0	,	30	,	0	,	0	 );
-			VioletScales	 = CraftAttInfo( 	3	,	0	,	0	,	3	,	0	,	6	,	11	,	75	,	100	,	0	,	0	,	25	,	0	,	30	,	0	,	0	 );
-			PlatinumScales	 = CraftAttInfo( 	1	,	1	,	1	,	1	,	1	,	6	,	11	,	75	,	100	,	15	,	15	,	15	,	15	,	30	,	0	,	50	 );
-			CadalyteScales	 = CraftAttInfo( 	7	,	4	,	4	,	7	,	4	,	20	,	22	,	170	,	200	,	0	,	0	,	50	,	0	,	200	,	30	,	0	 );
-			GornScales	 = CraftAttInfo( 	5	,	2	,	4	,	2	,	2	,	12	,	20	,	125	,	175	,	0	,	25	,	0	,	0	,	100	,	10	,	0	 );
-			TrandoshanScales	 = CraftAttInfo( 	5	,	4	,	2	,	2	,	2	,	12	,	20	,	125	,	175	,	25	,	0	,	0	,	0	,	100	,	10	,	0	 );
-			SilurianScales	 = CraftAttInfo( 	5	,	2	,	2	,	4	,	2	,	12	,	20	,	125	,	175	,	0	,	0	,	25	,	0	,	100	,	10	,	0	 );
-			KraytScales	 = CraftAttInfo( 	5	,	2	,	2	,	2	,	4	,	12	,	20	,	125	,	175	,	0	,	0	,	0	,	25	,	100	,	0	,	0	 );
+			RedScales	 		= CraftAttInfo( 	3	,	0	,	3	,	0	,	0	,	6	,	11	,	75	,	100	,	0	,	25	,	0	,	0	,	30	,	0	,	0	 );
+			YellowScales 		= CraftAttInfo( 	1	,	1	,	1	,	1	,	1	,	6	,	11	,	75	,	100	,	10	,	10	,	10	,	10	,	30	,	0	,	30	 );
+			BlackScales	 		= CraftAttInfo( 	2	,	0	,	0	,	2	,	2	,	6	,	11	,	75	,	100	,	0	,	0	,	0	,	0	,	30	,	0	,	0	 );
+			GreenScales	 		= CraftAttInfo( 	2	,	0	,	0	,	0	,	3	,	6	,	11	,	75	,	100	,	0	,	0	,	0	,	25	,	30	,	0	,	0	 );
+			WhiteScales	 		= CraftAttInfo( 	2	,	3	,	0	,	0	,	0	,	6	,	11	,	75	,	100	,	25	,	0	,	0	,	0	,	30	,	0	,	0	 );
+			BlueScales	 		= CraftAttInfo( 	2	,	2	,	0	,	0	,	1	,	6	,	11	,	75	,	100	,	15	,	0	,	0	,	15	,	30	,	0	,	0	 );
+			DinosaurScales		= CraftAttInfo( 	1	,	1	,	1	,	1	,	1	,	6	,	11	,	75	,	100	,	0	,	0	,	0	,	0	,	30	,	0	,	0	 );
+			MetallicScales		= CraftAttInfo( 	2	,	0	,	2	,	2	,	0	,	6	,	11	,	75	,	100	,	0	,	0	,	0	,	0	,	30	,	0	,	0	 );
+			BrazenScales		= CraftAttInfo( 	2	,	0	,	2	,	1	,	0	,	6	,	11	,	75	,	100	,	0	,	15	,	15	,	0	,	30	,	0	,	0	 );
+			UmberScales	 		= CraftAttInfo( 	3	,	0	,	0	,	3	,	0	,	6	,	11	,	75	,	100	,	0	,	0	,	35	,	0	,	30	,	0	,	0	 );
+			VioletScales		= CraftAttInfo( 	3	,	0	,	0	,	3	,	0	,	6	,	11	,	75	,	100	,	0	,	0	,	25	,	0	,	30	,	0	,	0	 );
+			PlatinumScales		= CraftAttInfo( 	1	,	1	,	1	,	1	,	1	,	6	,	11	,	75	,	100	,	15	,	15	,	15	,	15	,	30	,	0	,	50	 );
+			
+			CadalyteScales		= CraftAttInfo( 	7	,	4	,	4	,	7	,	4	,	20	,	22	,	170	,	200	,	0	,	0	,	50	,	0	,	200	,	30	,	0	 );
+			
+			GornScales	 		= CraftAttInfo( 	5	,	2	,	4	,	2	,	2	,	12	,	20	,	125	,	175	,	0	,	25	,	0	,	0	,	100	,	10	,	0	 );
+			TrandoshanScales	= CraftAttInfo( 	5	,	4	,	2	,	2	,	2	,	12	,	20	,	125	,	175	,	25	,	0	,	0	,	0	,	100	,	10	,	0	 );
+			SilurianScales	 	= CraftAttInfo( 	5	,	2	,	2	,	4	,	2	,	12	,	20	,	125	,	175	,	0	,	0	,	25	,	0	,	100	,	10	,	0	 );
+			KraytScales	 		= CraftAttInfo( 	5	,	2	,	2	,	2	,	4	,	12	,	20	,	125	,	175	,	0	,	0	,	0	,	25	,	100	,	0	,	0	 );
 																																				
-			SpectralSpec	 = CraftAttInfo( 	3	,	3	,	0	,	0	,	0	,	10	,	11	,	85	,	100	,	50	,	0	,	0	,	0	,	20	,	0	,	0	 );
-			DreadSpec	 = CraftAttInfo( 	2	,	1	,	1	,	2	,	0	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	0	,	90	,	0	,	20	 );
-			GhoulishSpec	 = CraftAttInfo( 	3	,	2	,	2	,	3	,	2	,	10	,	11	,	85	,	100	,	10	,	10	,	10	,	10	,	200	,	0	,	50	 );
-			WyrmSpec	 = CraftAttInfo( 	4	,	2	,	6	,	2	,	2	,	10	,	11	,	85	,	100	,	10	,	10	,	10	,	10	,	200	,	0	,	50	 );
-			HolySpec	 = CraftAttInfo( 	4	,	5	,	4	,	5	,	4	,	10	,	11	,	85	,	100	,	35	,	10	,	35	,	10	,	100	,	0	,	0	 );
-			BloodlessSpec	 = CraftAttInfo( 	3	,	0	,	0	,	0	,	5	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	0	,	70	,	20	,	0	 );
-			GildedSpec	 = CraftAttInfo( 	3	,	3	,	3	,	3	,	3	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	0	,	120	,	0	,	200	 );
-			DemilichSpec	 = CraftAttInfo( 	3	,	3	,	3	,	3	,	5	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	30	,	200	,	0	,	0	 );
-			WintrySpec	 = CraftAttInfo( 	2	,	5	,	2	,	2	,	2	,	10	,	11	,	85	,	100	,	50	,	0	,	0	,	0	,	70	,	0	,	0	 );
-			FireSpec	 = CraftAttInfo( 	1	,	1	,	4	,	1	,	1	,	3	,	3	,	55	,	100	,	0	,	100	,	0	,	0	,	25	,	10	,	0	 );
-			ColdSpec	 = CraftAttInfo( 	1	,	4	,	1	,	1	,	1	,	3	,	3	,	55	,	100	,	100	,	0	,	0	,	0	,	25	,	10	,	0	 );
-			PoisSpec	 = CraftAttInfo( 	1	,	1	,	1	,	1	,	4	,	3	,	3	,	55	,	100	,	0	,	0	,	0	,	100	,	25	,	10	,	0	 );
-			EngySpec	 = CraftAttInfo( 	1	,	1	,	1	,	4	,	1	,	3	,	3	,	55	,	100	,	0	,	0	,	100	,	0	,	25	,	10	,	0	 );
-			ExodusSpec	 = CraftAttInfo( 	0	,	0	,	0	,	0	,	0	,	20	,	22	,	170	,	200	,	0	,	0	,	0	,	0	,	0	,	0	,	0	 );
-			TurtleSpec	 = CraftAttInfo( 	4	,	2	,	2	,	2	,	2	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	0	,	120	,	30	,	0	 );
-																																				
-			Horned	 = CraftAttInfo( 	2	,	1	,	1	,	1	,	1	,	3	,	4	,	45	,	100	,	0	,	0	,	0	,	0	,	10	,	0	,	0	 );
-			Barbed	 = CraftAttInfo( 	2	,	1	,	1	,	2	,	3	,	4	,	5	,	50	,	100	,	0	,	0	,	0	,	70	,	20	,	0	,	0	 );
-			Necrotic	 = CraftAttInfo( 	2	,	2	,	1	,	1	,	3	,	5	,	6	,	50	,	100	,	0	,	0	,	0	,	50	,	30	,	0	,	0	 );
-			Volcanic	 = CraftAttInfo( 	3	,	1	,	3	,	2	,	2	,	6	,	7	,	50	,	100	,	0	,	50	,	0	,	0	,	40	,	0	,	0	 );
-			Frozen	 = CraftAttInfo( 	3	,	3	,	1	,	2	,	2	,	6	,	7	,	50	,	100	,	50	,	0	,	0	,	0	,	50	,	0	,	0	 );
-			Spined	 = CraftAttInfo( 	2	,	3	,	1	,	2	,	3	,	5	,	7	,	50	,	100	,	0	,	0	,	0	,	20	,	50	,	0	,	40	 );
-			Goliath	 = CraftAttInfo( 	3	,	2	,	2	,	4	,	2	,	7	,	8	,	50	,	100	,	0	,	0	,	25	,	0	,	60	,	0	,	0	 );
-			Draconic	 = CraftAttInfo( 	4	,	3	,	3	,	3	,	3	,	8	,	9	,	50	,	100	,	0	,	25	,	0	,	0	,	70	,	0	,	0	 );
-			Hellish	 = CraftAttInfo( 	4	,	4	,	4	,	4	,	4	,	10	,	11	,	50	,	100	,	0	,	50	,	0	,	0	,	80	,	0	,	0	 );
-			Dinosaur	 = CraftAttInfo( 	5	,	4	,	4	,	4	,	4	,	11	,	12	,	50	,	100	,	0	,	0	,	0	,	0	,	100	,	0	,	0	 );
-			Alien	 = CraftAttInfo( 	5	,	4	,	4	,	4	,	4	,	15	,	18	,	85	,	200	,	0	,	0	,	50	,	0	,	100	,	0	,	0	 );
-			Adesote	 = CraftAttInfo( 	5	,	3	,	3	,	5	,	3	,	14	,	17	,	75	,	180	,	0	,	0	,	25	,	0	,	80	,	50	,	0	 );
-			Biomesh	 = CraftAttInfo( 	5	,	3	,	3	,	3	,	5	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	0	,	80	,	40	,	0	 );
-			Cerlin	 = CraftAttInfo( 	5	,	5	,	3	,	3	,	3	,	14	,	17	,	75	,	180	,	25	,	0	,	0	,	0	,	80	,	60	,	0	 );
-			Durafiber	 = CraftAttInfo( 	6	,	3	,	3	,	4	,	3	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	0	,	80	,	40	,	0	 );
-			Flexicris	 = CraftAttInfo( 	4	,	4	,	4	,	4	,	4	,	14	,	17	,	75	,	180	,	0	,	25	,	25	,	0	,	80	,	50	,	0	 );
-			Hypercloth	 = CraftAttInfo( 	4	,	3	,	3	,	3	,	6	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	25	,	80	,	60	,	0	 );
-			Nylar	 = CraftAttInfo( 	4	,	3	,	6	,	3	,	3	,	14	,	17	,	75	,	180	,	0	,	50	,	0	,	0	,	80	,	60	,	0	 );
-			Nylonite	 = CraftAttInfo( 	4	,	3	,	3	,	6	,	3	,	14	,	17	,	75	,	180	,	0	,	0	,	50	,	0	,	80	,	50	,	0	 );
-			Polyfiber	 = CraftAttInfo( 	5	,	3	,	3	,	3	,	5	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	50	,	80	,	50	,	0	 );
-			Syncloth	 = CraftAttInfo( 	4	,	4	,	4	,	4	,	2	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	0	,	80	,	40	,	0	 );
-			Thermoweave	 = CraftAttInfo( 	5	,	3	,	5	,	5	,	0	,	14	,	17	,	75	,	180	,	0	,	20	,	20	,	0	,	80	,	50	,	0	 );
-																																				
+			SpectralSpec	= CraftAttInfo( 	3	,	3	,	0	,	0	,	0	,	10	,	11	,	85	,	100	,	50	,	0	,	0	,	0	,	20	,	0	,	0	 );
+			DreadSpec	 	= CraftAttInfo( 	2	,	1	,	1	,	2	,	0	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	0	,	90	,	0	,	20	 );
+			GhoulishSpec	= CraftAttInfo( 	3	,	2	,	2	,	3	,	2	,	10	,	11	,	85	,	100	,	10	,	10	,	10	,	10	,	200	,	0	,	50	 );
+			WyrmSpec	 	= CraftAttInfo( 	4	,	2	,	6	,	2	,	2	,	10	,	11	,	85	,	100	,	10	,	10	,	10	,	10	,	200	,	0	,	50	 );
+			HolySpec	 	= CraftAttInfo( 	4	,	5	,	4	,	5	,	4	,	10	,	11	,	85	,	100	,	35	,	10	,	35	,	10	,	100	,	0	,	0	 );
+			BloodlessSpec	= CraftAttInfo( 	3	,	0	,	0	,	0	,	5	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	0	,	70	,	20	,	0	 );
+			GildedSpec	 	= CraftAttInfo( 	3	,	3	,	3	,	3	,	3	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	0	,	120	,	0	,	200	 );
+			DemilichSpec 	= CraftAttInfo( 	3	,	3	,	3	,	3	,	5	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	30	,	200	,	0	,	0	 );
+			WintrySpec	 	= CraftAttInfo( 	2	,	5	,	2	,	2	,	2	,	10	,	11	,	85	,	100	,	50	,	0	,	0	,	0	,	70	,	0	,	0	 );
+			FireSpec	 	= CraftAttInfo( 	1	,	1	,	4	,	1	,	1	,	3	,	3	,	55	,	100	,	0	,	100	,	0	,	0	,	25	,	10	,	0	 );
+			ColdSpec	 	= CraftAttInfo( 	1	,	4	,	1	,	1	,	1	,	3	,	3	,	55	,	100	,	100	,	0	,	0	,	0	,	25	,	10	,	0	 );
+			PoisSpec	 	= CraftAttInfo( 	1	,	1	,	1	,	1	,	4	,	3	,	3	,	55	,	100	,	0	,	0	,	0	,	100	,	25	,	10	,	0	 );
+			EngySpec	 	= CraftAttInfo( 	1	,	1	,	1	,	4	,	1	,	3	,	3	,	55	,	100	,	0	,	0	,	100	,	0	,	25	,	10	,	0	 );
+			ExodusSpec	 	= CraftAttInfo( 	0	,	0	,	0	,	0	,	0	,	20	,	22	,	170	,	200	,	0	,	0	,	0	,	0	,	0	,	0	,	0	 );
+			TurtleSpec	 	= CraftAttInfo( 	4	,	2	,	2	,	2	,	2	,	10	,	11	,	85	,	100	,	0	,	0	,	0	,	0	,	120	,	30	,	0	 );
+
+
+			Horned		= CraftAttInfo( 	2	,	1	,	1	,	1	,	1	,	3	,	4	,	45	,	100	,	0	,	0	,	0	,	0	,	10	,	0	,	0	 );
+			Barbed	 	= CraftAttInfo( 	2	,	1	,	1	,	2	,	3	,	4	,	5	,	50	,	100	,	0	,	0	,	0	,	70	,	20	,	0	,	0	 );
+			
+			Necrotic	= CraftAttInfo( 	2	,	2	,	1	,	1	,	3	,	5	,	6	,	50	,	100	,	0	,	0	,	0	,	50	,	30	,	0	,	0	 );
+			Volcanic	= CraftAttInfo( 	3	,	1	,	3	,	2	,	2	,	6	,	7	,	50	,	100	,	0	,	50	,	0	,	0	,	40	,	0	,	0	 );
+			Frozen	 	= CraftAttInfo( 	3	,	3	,	1	,	2	,	2	,	6	,	7	,	50	,	100	,	50	,	0	,	0	,	0	,	50	,	0	,	0	 );
+			Spined	 	= CraftAttInfo( 	2	,	3	,	1	,	2	,	3	,	5	,	7	,	50	,	100	,	0	,	0	,	0	,	20	,	50	,	0	,	40	 );
+			Goliath	 	= CraftAttInfo( 	3	,	2	,	2	,	4	,	2	,	7	,	8	,	50	,	100	,	0	,	0	,	25	,	0	,	60	,	0	,	0	 );
+			Draconic	= CraftAttInfo( 	4	,	3	,	3	,	3	,	3	,	8	,	9	,	50	,	100	,	0	,	25	,	0	,	0	,	70	,	0	,	0	 );
+			
+			Hellish	 	= CraftAttInfo( 	4	,	4	,	4	,	4	,	4	,	10	,	11	,	50	,	100	,	0	,	50	,	0	,	0	,	80	,	0	,	0	 );
+			Dinosaur	= CraftAttInfo( 	5	,	4	,	4	,	4	,	4	,	11	,	12	,	50	,	100	,	0	,	0	,	0	,	0	,	100	,	0	,	0	 );
+			
+			Alien	 	= CraftAttInfo( 	5	,	4	,	4	,	4	,	4	,	15	,	18	,	85	,	200	,	0	,	0	,	50	,	0	,	100	,	0	,	0	 );
+			
+			Adesote	 	= CraftAttInfo( 	5	,	3	,	3	,	5	,	3	,	14	,	17	,	75	,	180	,	0	,	0	,	25	,	0	,	80	,	50	,	0	 );
+			Biomesh	 	= CraftAttInfo( 	5	,	3	,	3	,	3	,	5	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	0	,	80	,	40	,	0	 );
+			Cerlin	 	= CraftAttInfo( 	5	,	5	,	3	,	3	,	3	,	14	,	17	,	75	,	180	,	25	,	0	,	0	,	0	,	80	,	60	,	0	 );
+			Durafiber	= CraftAttInfo( 	6	,	3	,	3	,	4	,	3	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	0	,	80	,	40	,	0	 );
+			Flexicris	= CraftAttInfo( 	4	,	4	,	4	,	4	,	4	,	14	,	17	,	75	,	180	,	0	,	25	,	25	,	0	,	80	,	50	,	0	 );
+			Hypercloth	= CraftAttInfo( 	4	,	3	,	3	,	3	,	6	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	25	,	80	,	60	,	0	 );
+			Nylar	 	= CraftAttInfo( 	4	,	3	,	6	,	3	,	3	,	14	,	17	,	75	,	180	,	0	,	50	,	0	,	0	,	80	,	60	,	0	 );
+			Nylonite	= CraftAttInfo( 	4	,	3	,	3	,	6	,	3	,	14	,	17	,	75	,	180	,	0	,	0	,	50	,	0	,	80	,	50	,	0	 );
+			Polyfiber	= CraftAttInfo( 	5	,	3	,	3	,	3	,	5	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	50	,	80	,	50	,	0	 );
+			Syncloth	= CraftAttInfo( 	4	,	4	,	4	,	4	,	2	,	14	,	17	,	75	,	180	,	0	,	0	,	0	,	0	,	80	,	40	,	0	 );
+			Thermoweave	= CraftAttInfo( 	5	,	3	,	5	,	5	,	0	,	14	,	17	,	75	,	180	,	0	,	20	,	20	,	0	,	80	,	50	,	0	 );
+
+
 			AshTree	 = CraftAttInfo( 	1	,	1	,	1	,	1	,	1	,	1	,	2	,	40	,	100	,	5	,	5	,	5	,	5	,	10	,	0	,	0	 );
 			CherryTree	 = CraftAttInfo( 	1	,	1	,	1	,	2	,	1	,	2	,	2	,	45	,	100	,	0	,	0	,	20	,	10	,	25	,	0	,	0	 );
 			EbonyTree	 = CraftAttInfo( 	1	,	0	,	1	,	3	,	0	,	2	,	3	,	50	,	100	,	20	,	0	,	0	,	0	,	40	,	0	,	0	 );

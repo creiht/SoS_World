@@ -655,7 +655,7 @@ namespace Server.Items
 			m_Props.SetAll( false );
 
 			bool isShield = ( armor is BaseShield );
-			int baseCount = ( isShield ? 7 : 20 );
+			int baseCount = ( isShield ? 7 : 24 );
 			int baseOffset = ( isShield ? 0 : 4 );
 
 			if ( !isShield && armor.MeditationAllowance == ArmorMeditationAllowance.All )

@@ -110,16 +110,16 @@ namespace Server.Engines.Craft
 		public override void InitCraftList()
 		{
 			#region Footwear
-			AddCraft( typeof( LeatherSandals ), 1015288, "leather sandals", 42.4, 67.4, typeof( DemonSkins ), 1063757, 4, 1042081 );
-			AddCraft( typeof( LeatherShoes ), 1015288, "leather shoes", 56.5, 71.5, typeof( DemonSkins ), 1063757, 6, 1042081 );
-			AddCraft( typeof( LeatherBoots ), 1015288, "leather boots", 63.1, 88.1, typeof( DemonSkins ), 1063757, 8, 1042081 );
-			AddCraft( typeof( LeatherThighBoots ), 1015288, "leather thigh boots", 71.4, 96.4, typeof( DemonSkins ), 1063757, 10, 1042081 );
-			AddCraft( typeof( LeatherSoftBoots ), 1015288, "soft leather boots", 81.4, 106.4, typeof( DemonSkins ), 1063757, 8, 1042081 );
+			//AddCraft( typeof( LeatherSandals ), 1015288, "leather sandals", 42.4, 67.4, typeof( DemonSkins ), 1063757, 4, 1042081 );
+			//AddCraft( typeof( LeatherShoes ), 1015288, "leather shoes", 56.5, 71.5, typeof( DemonSkins ), 1063757, 6, 1042081 );
+			//AddCraft( typeof( LeatherBoots ), 1015288, "leather boots", 63.1, 88.1, typeof( DemonSkins ), 1063757, 8, 1042081 );
+			//AddCraft( typeof( LeatherThighBoots ), 1015288, "leather thigh boots", 71.4, 96.4, typeof( DemonSkins ), 1063757, 10, 1042081 );
+			//AddCraft( typeof( LeatherSoftBoots ), 1015288, "soft leather boots", 81.4, 106.4, typeof( DemonSkins ), 1063757, 8, 1042081 );
 
-			if ( MyServerSettings.MonstersAllowed() )
-				AddCraft( typeof( HikingBoots ), 1015288, "hiking boots", 83.1, 108.1, typeof( DemonSkins ), 1063757, 8, 1042081 );
+			//if ( MyServerSettings.MonstersAllowed() )
+			//	AddCraft( typeof( HikingBoots ), 1015288, "hiking boots", 83.1, 108.1, typeof( DemonSkins ), 1063757, 8, 1042081 );
 
-			AddCraft( typeof( OniwabanBoots ), 1015288, "oniwaban boots", 81.4, 106.4, typeof( DemonSkins ), 1063757, 8, 1042081 );
+			//AddCraft( typeof( OniwabanBoots ), 1015288, "oniwaban boots", 81.4, 106.4, typeof( DemonSkins ), 1063757, 8, 1042081 );
 			#endregion
 
 			#region Leather Armor
@@ -129,8 +129,8 @@ namespace Server.Engines.Craft
 			AddCraft( typeof( LeatherArms ), 1015293, 1025061, 53.9, 78.9, typeof( DemonSkins ), 1063757, 4, 1042081 );
 			AddCraft( typeof( LeatherLegs ), 1015293, 1025067, 66.3, 91.3, typeof( DemonSkins ), 1063757, 10, 1042081 );
 			AddCraft( typeof( LeatherChest ), 1015293, 1025068, 70.5, 95.5, typeof( DemonSkins ), 1063757, 12, 1042081 );
-			AddCraft( typeof( LeatherCloak ), 1015293, "leather cloak", 66.3, 91.3, typeof( DemonSkins ), 1063757, 10, 1042081 );
-			AddCraft( typeof( LeatherRobe ), 1015293, "leather robe", 76.3, 101.3, typeof( DemonSkins ), 1063757, 18, 1042081 );
+			//AddCraft( typeof( LeatherCloak ), 1015293, "leather cloak", 66.3, 91.3, typeof( DemonSkins ), 1063757, 10, 1042081 );
+			//AddCraft( typeof( LeatherRobe ), 1015293, "leather robe", 76.3, 101.3, typeof( DemonSkins ), 1063757, 18, 1042081 );
 			AddCraft( typeof( LeatherShorts ), 1015293, 1027168, 62.2, 87.2, typeof( DemonSkins ), 1063757, 8, 1042081 );
 			AddCraft( typeof( LeatherSkirt ), 1015293, 1027176, 58.0, 83.0, typeof( DemonSkins ), 1063757, 6, 1042081 );
 			AddCraft( typeof( LeatherBustierArms ), 1015293, 1027178, 58.0, 83.0, typeof( DemonSkins ), 1063757, 6, 1042081 );

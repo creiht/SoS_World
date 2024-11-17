@@ -100,7 +100,7 @@ namespace Server
 				typeof( StuddedHaidate ),		typeof( StuddedHiroSode ),			typeof( StuddedMempo ),
 				typeof( StuddedSuneate ),		typeof( OniwabanHood ),				typeof( OniwabanLeggings ),
 				typeof( ShinobiCowl ),			typeof( ShinobiHood ),				typeof( ShinobiMask ),
-				typeof( ShinobiRobe ),			typeof( OniwabanTunic ),			typeof( OniwabanBoots ),
+				typeof( ShinobiRobe ),			typeof( OniwabanTunic ),			/*typeof( OniwabanBoots ),*/
 				typeof( OniwabanGloves ),		typeof( ScalyBoots ),				typeof( DrakboneHelm )
 			};
 
@@ -108,12 +108,12 @@ namespace Server
 
 		private static Type[] m_ArmorTypes = new Type[]
 			{
-				typeof( Bascinet ),				typeof( LeatherSandals ),			typeof( RingmailArms ),			
-				typeof( BoneArms ),				typeof( LeatherShoes ),				typeof( RingmailChest ),			
+				typeof( Bascinet ),				/*typeof( LeatherSandals ),*/			typeof( RingmailArms ),			
+				typeof( BoneArms ),				/*typeof( LeatherShoes ),*/				typeof( RingmailChest ),			
 				typeof( BoneChest ),			typeof( LeatherShorts ),			typeof( RingmailGloves ),			
 				typeof( BoneGloves ),			typeof( LeatherSkirt ),				typeof( RingmailLegs ),			
-				typeof( BoneHelm ),				typeof( LeatherSoftBoots ),			typeof( RoyalArms ),			
-				typeof( BoneLegs ),				typeof( LeatherThighBoots ),		typeof( RoyalBoots ),			
+				typeof( BoneHelm ),				/*typeof( LeatherSoftBoots ),*/			typeof( RoyalArms ),			
+				typeof( BoneLegs ),				/*typeof( LeatherThighBoots ),*/		typeof( RoyalBoots ),			
 				typeof( ChainChest ),			typeof( RoyalChest ),				typeof( WolfCap ),
 				typeof( ChainCoif ),			typeof( DreadHelm ),				typeof( DeerCap ),
 				typeof( ChainLegs ),			typeof( RoyalGloves ),				typeof( BearCap ),
@@ -123,16 +123,16 @@ namespace Server
 				typeof( FemaleStuddedChest ),	typeof( StuddedArms ),				typeof( ChainSkirt ),
 				typeof( Helmet ),				typeof( StuddedBustierArms ),		typeof( RingmailSkirt ),
 				typeof( LeatherArms ),			typeof( StuddedChest ),				typeof( StuddedSkirt ),
-				typeof( LeatherBoots ),			typeof( StuddedGloves ),
+				/*typeof( LeatherBoots ),*/			typeof( StuddedGloves ),
 				typeof( LeatherBustierArms ),	typeof( NorseHelm ),				typeof( StuddedGorget ),			
 				typeof( LeatherCap ),			typeof( OrcHelm ),					typeof( StuddedLegs ),			
 				typeof( LeatherChest ),			typeof( PlateArms ),				typeof( WoodenPlateArms ),			
-				typeof( LeatherCloak ),			typeof( PlateChest ),				typeof( WoodenPlateChest ),			
+				/*typeof( LeatherCloak ),*/			typeof( PlateChest ),				typeof( WoodenPlateChest ),			
 				typeof( LeatherGloves ),		typeof( PlateGloves ),				typeof( WoodenPlateGloves ),			
 				typeof( LeatherGorget ),		typeof( PlateGorget ),				typeof( WoodenPlateGorget ),			
 				typeof( LeatherLegs ),			typeof( PlateHelm ),				typeof( WoodenPlateHelm ),			
-				typeof( LeatherRobe ),			typeof( PlateLegs ),				typeof( WoodenPlateLegs ),
-				typeof( BoneSkirt ),			typeof( HideChest ), 				typeof( HikingBoots ),
+				/*typeof( LeatherRobe ),*/			typeof( PlateLegs ),				typeof( WoodenPlateLegs ),
+				typeof( BoneSkirt ),			typeof( HideChest ), 				/*typeof( HikingBoots ),*/
 				typeof( SavageArms ), 			typeof( SavageChest ), 				typeof( SavageGloves ),
 				typeof( SavageHelm ), 			typeof( SavageLegs ),				typeof( StuddedHideChest ),
 				typeof( DragonChest ),			typeof( DragonGloves ),				typeof( DragonLegs ),
